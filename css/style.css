@@ -1,0 +1,57 @@
+
+
+
+@font-face
+{
+	font-family: Georgia;
+	src: url(../fonts/Georgia/Georgia.ttf);
+}
+
+@font-face
+{
+	font-family: GeorgiaT;
+	src: url(../fonts/Georgia/georgiaz.ttf);
+}
+
+.title h2 
+{
+	font-family: GeorgiaT;
+	text-align: center;
+}
+.home-thumb
+{
+	background-color: #DECDC9;
+} 
+.home-thumb h2
+{
+	padding-top: 100px;
+} 
+.bg-dark,
+.bg-white,
+.bg-yellow
+{
+	min-height: 450px;
+	max-height: 500px;
+}
+
+
+
+@media(max-width: 800px)
+{
+	header .logo img,
+	header nav,
+	body,
+	.preloader,
+	.container,
+	section,
+	
+	header nav ul li,
+	footer p,
+	{
+		float: none;
+		text-align: center;
+		width: 100%;
+		height: 100%
+	}
+	
+}
